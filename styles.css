@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: consolas, monospace;
+
+  min-height: 100vh;
+  background-color: #212121;
+}
+
+a {
+  color: #ff6a98;
+  font-size: 1.5rem;
+  position: relative;
+  display: inline-block;
+
+  padding: 1rem 1.875rem;
+  letter-spacing: 4px;
+
+  text-transform: uppercase;
+  text-decoration: none;
+
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: #ffff;
+  background: #ff6a98;
+  box-shadow: 0 0 10px #ff6a98, 0 0 2.5rem #ff6a98, 0 0 5rem #ff6a98;
+  transition: 0.8s;
+}
